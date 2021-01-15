@@ -1,6 +1,6 @@
 # B18-Wearables-Laboratory
 ## B18 Biomedical Modelling and Monitoring (A10589) <br /> Wearables Practical Laboratory <br />
-<img src="https://github.com/apcreagh/B18-Wearables-Laboratory/blob/main/FIGURES/oxford_eng_logo.png" width="700" height="200" />\
+<img src="https://github.com/apcreagh/B18-Wearables-Laboratory/blob/main/FIGURES/oxford_eng_logo.png" width="700" height="200" />
 
 The Institute of Biomedical Engineering, <br />
 Department of Engineering Science,<br />
