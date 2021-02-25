@@ -91,7 +91,7 @@ fig.Position=[325 447 625 218];
 end 
 
 num_steps_detected=length(locs);
-cadence=num_steps_detected/max(time)*60;
+cadence=num_steps_detected/(max(time)-min(time))*60; %change kindly provided by Holly Mortimer <holly.mortimer@univ.ox.ac.uk>; 
 steps_counted=SC.steps_counted;
 
 fprintf(' Recorded Steps #: %i\n Detected Steps #: %i\n Cadence %0.2f\n', steps_counted, num_steps_detected, cadence);
