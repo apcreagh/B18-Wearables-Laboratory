@@ -17,10 +17,12 @@ For those of you using github desktop or git you can alternatively clone the rep
 $ git clone https://github.com/apcreagh/B18-Wearables-Laboratory.git <br />
 
 Once the lab files have been downloaded, unzip the content to your *own* MATLAB home directory (this is usually somewhere like: ~/user/Documents/MATLAB/). Type 'userpath' into the command window to find this. <br />
+
 Next, run the 'start_up.m' file to extract and unzip the data and files needed for the B18 lab. Follow the instructions given your lab sheet. 
+
 ## Submisison 
 Completed lab reports can be submitted through [canvas.ox.ac.uk](https://login.canvas.ox.ac.uk/)
 
 Last Modified:\
-HT 2021\
+HT 2022\
 Andrew Creagh
