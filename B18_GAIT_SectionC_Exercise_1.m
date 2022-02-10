@@ -18,7 +18,7 @@ close all
 %your directory where the data is stored by denoting the pathname variable:
 %e.g.: data_pathname='C:\MATLAB\B18 Lab\DATA\B18_GAIT_data\'
 b18lab_pathname=pwd;
-data_pathname=[b18lab_pathname, filesep, 'DATA\B18_GAIT_data'];
+data_pathname=[b18lab_pathname, filesep, 'DATA', filesep, 'B18_GAIT_data'];
 
 %set the device location; in this example we are only interested in
 %smartphone accelerometry that recorded when the phone was in the front
