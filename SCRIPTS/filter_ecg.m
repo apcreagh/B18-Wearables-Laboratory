@@ -15,7 +15,7 @@ function filtered_signal=filter_ecg(signal,fs, varargin)
 %% Andrew Creagh. andrew.creagh@eng.ox.ac.uk
 %  Last modified on December 2020
 %% Parse Arguments
-optargs = {0.5 100 4};  % default values for input arguments
+optargs = {0.5 25 4};  % default values for input arguments
 newVals = cellfun(@(x) ~isempty(x), varargin);
 optargs(newVals) = varargin(newVals);
 [Fhigh, Flow, Norder] = optargs{:};

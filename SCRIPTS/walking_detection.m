@@ -194,6 +194,11 @@ transition_indexes_(:, transition_indexes_(1,:)==transition_indexes_(2,:))=[];
 
 num_bouts=size(transition_indexes_,2);
 BOUT_DATA=cell(num_bouts,1);bout_length=NaN(num_bouts, 1);
+
+if num_bouts<1
+    error('No walking bouts detected with the sensor data & parameters given!')
+end 
+ 
 for ii=1:num_bouts
 ind=transition_indexes_(1, ii):transition_indexes_(2, ii); 
 BOUT_DATA{ii}=SENSOR_DATA(ind, :);
