@@ -44,11 +44,15 @@ options.plot_data=1;
 %       correponsindg to the moving standard deviation of the combined 
 %       standard deviation of aX, aY, and aZ acceleration;
 %      (default, options.ssd_threshold=0.77; g, where gravity g=9.81 ms^-2)
+%  - 'time_threshold', float, minimum gait-bout length to consider as 
+%        measured in seconds [s], i.e. bouts less than this threshold will
+%        be removed;
+%       (default, options.time_threshold=1; [s])
 %-------------------------------------------------------------------------%
 G=9.81; %gravity 9.81 m/s^2
-options.acc_threshold=0.1;  %choose value
-options.ssd_threshold=0.3;  %choose value
-options.time_threshold=100; %[s]
+options.acc_threshold=0.77;  %choose value
+options.ssd_threshold=0.77;  %choose value
+options.time_threshold=1;    %choose value [s]
 %% Step Detection Parameters:
 %-------------------------------------------------------------------------%
 % - 'MinPeakDistance': the minimum distance between each detected peak 
